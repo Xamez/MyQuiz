@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+    id 'com.github.johnrengelman.shadow' version '7.0.0'
+}
+
+compileJava.getOptions().setEncoding("UTF-8")
+
+group 'fr.xamez.myquiz'
+version '0.1'
+setMainClassName("${group}.Main")
+
+repositories {
+    maven { url 'https://plugins.gradle.org/m2/' }
+}
+
+shadowJar {
+    manifest { attributes "Main-Class": mainClassName }
+}
+
+javafx {
+    modules("javafx.controls")
+    version '16'
+}
