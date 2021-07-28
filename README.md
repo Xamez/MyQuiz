@@ -10,4 +10,4 @@
 ## 🔒 Licenses
 
 MyQuiz uses the [JavaFx](https://openjfx.io/) library. You can find its license [here](https://github.com/openjdk/jfx/blob/master/LICENSE), being included in the project. The source code of the driver is not modified.  
-MongoSK is however under the GNU General Public License v3.0 license, which can be found [here](https://github.com/Xamez/MyQuiz/blob/master/LICENSE) and being included in the project.
+MyQuiz is however under the GNU General Publsic License v3.0 license, which can be found [here](https://github.com/Xamez/MyQuiz/blob/master/LICENSE) and being included in the project.
